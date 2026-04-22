@@ -1,0 +1,25 @@
+SmartHome_Manager/
+│
+├── config/
+│   └── db.php
+│
+├── auth/
+│   ├── register.php
+│   ├── login.php
+│   └── logout.php
+│
+├── dashboard/
+│   └── home.php
+│
+├── rooms/
+│   ├── add_room.php
+│   ├── view_room.php
+│   └── delete_room.php
+│
+├── includes/
+│   ├── header.php
+│   └── footer.php
+│
+├── assets/
+│   ├── css/
+│   └── js/
