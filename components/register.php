@@ -12,6 +12,10 @@ if(isset($_POST['submit'])){
 
     $data = mysqli_query($con , $que);
 
+    if(!$data){
+        die(mysqli_error($con));
+    }
+
     if($data){
         $_SESSION['user_id'] = mysqli_insert_id($con);
         $_SESSION['name'] = $name;
